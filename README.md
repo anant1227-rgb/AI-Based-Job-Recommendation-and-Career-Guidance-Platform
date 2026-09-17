@@ -1,221 +1,151 @@
 # AI-Based Job Recommendation and Career Guidance Platform
 
-A DSA-based career support system that focuses on organizing, searching, matching, prioritizing, and recommending job opportunities using Data Structures and Algorithms.
+A Data Structures and Algorithms-based project focused on organizing job opportunities and career information. The system aims to match users with suitable jobs efficiently by searching, organizing, relating, and prioritizing job and skill information using suitable DSA concepts.
 
-The project is designed to help students, graduates, and job seekers identify suitable opportunities based on skills, qualifications, interests, and job requirements.
-
----
-
-## Project Overview
-
-Job seekers often have to search through a large number of opportunities while comparing skills, qualifications, interests, and job requirements. The proposed system studies how suitable Data Structures and Algorithms can be applied to organize job records and support efficient job recommendation and career guidance.
-
-The system considers information such as:
-
-- User profile
-- Skills
-- Qualifications
-- Interests
-- Job title
-- Required skills
-- Job category
-- Experience requirements
-- Matching score
-- Job priority
-
-The goal is to organize this information efficiently and support relevant job recommendations.
+**Student:** Anant Pal  
+**Roll/ERP:** 2501330100064  
+**Program:** B.Tech CSE – 3rd Semester  
+**Course:** DSA - II (CCSE0301)  
+**Faculty:** Mr. Shamshad Ali  
+**Assignment Type:** Individual Assignment  
+**SDG:** SDG 8 – Decent Work & Economic Growth  
+**Reporting Month:** Month 1  
+**Date of Submission:** 16/09/2026
 
 ---
 
-## Basic Workflow
+## 1. Problem Context
 
-User Profile / Requirements
-        ↓
-Skill & Qualification Collection
-        ↓
-Job Data Collection
-        ↓
-Job Record Organization
-        ↓
-Job Search / Filtering
-        ↓
-Skill & Requirement Matching
-        ↓
-Recommendation / Matching Score
-        ↓
-Priority Ranking
-        ↓
-Max Heap / Priority Queue
-        ↓
-Top Job Recommendations
+Students and job seekers deal with a large number of job opportunities, skills, qualifications, and career choices. Manually managing this information can make it difficult to search for and select suitable jobs.
 
----
+The project studies how Data Structures and Algorithms can provide an efficient foundation for job recommendation and career guidance. Trees can help organize and search job information, graphs can represent relationships between skills and jobs, and heaps can support prioritization of suitable opportunities.
 
-## DSA Concepts
+## 2. Problem Identification
 
-| DSA Concept | Proposed Use |
-|-------------|--------------|
-| Binary Search Tree (BST) | Organizing and searching job records |
-| AVL Tree | Balanced and efficient searching of job records |
-| Heap / Priority Queue | Prioritizing jobs according to matching or suitability score |
-| Tree Traversal | Systematic processing of job records |
-| Graph | Representing relationships between users, skills, and jobs |
-| Adjacency List / Matrix | Storing connections among users, skills, and job opportunities |
+The project addresses the difficulty of searching, organizing, and prioritizing a large number of job opportunities and skill requirements.
 
-The DSA concepts above represent the proposed DSA-to-project mapping and will be implemented and evaluated during later development stages.
-
----
-
-## Initial Graph Model
-
-The job recommendation system can be represented using a graph.
-
-User ── HAS_SKILL ──> Skill
-
-Job ── REQUIRES ──> Skill
-
-User ── MATCHES ──> Job
-
-Job ── BELONGS_TO ──> Category
-
-Skill ── RELATED_TO ──> Skill
-
-The graph can help represent relationships between users, skills, jobs, and job categories.
-
----
-
-## Job Data Model
-
-Each job record can contain information such as:
+The important information considered in the project includes:
 
 - Job ID
-- Job Title
-- Company / Organization
-- Job Category
-- Required Skills
-- Qualification
-- Experience Requirement
-- Location
-- Job Type
-- Matching Score
-- Priority
+- Job title
+- Required skills
+- Experience level
+- Company/category
+- Related skills
+- User profile
+- Recommendation priority
 
-Example:
+The DSA role identified in the report includes:
 
-Job:
-    ID: J101
-    Title: Software Developer
-    Category: Software Development
-    Required Skills: C++, DSA, Python
-    Qualification: B.Tech CSE
-    Experience: Fresher
-    Location: Noida
-    Matching Score: 86
+- **BST / AVL Tree:** Searching and organizing job records
+- **Graph + Adjacency List:** Representing relationships between users, skills, and jobs
+- **Max Heap:** Prioritizing suitable jobs
 
 ---
 
-## Recommendation Approach
+## 3. Objectives
 
-The proposed system can evaluate job suitability using factors such as:
-
-User Skills
-+ Qualification Match
-+ Interest / Career Preference
-+ Experience Match
-+ Job Requirements
-+ Location / Job Type
-= Job Matching / Recommendation Score
-
-The exact scoring method and weights will be finalized during implementation.
+- Understand the major challenges in job recommendation and career guidance.
+- Organize job and career records using suitable data structures.
+- Study BST and AVL Tree for efficient job searching and organization.
+- Use Graph and Adjacency List for relationships between users, skills, and jobs.
+- Use Max Heap to prioritize jobs according to suitability/matching score.
+- Apply Tree Traversal for systematic processing.
+- Prepare a foundation for efficient job recommendation and career guidance.
 
 ---
 
-## Literature Review
+## 4. Target Users and Stakeholders
 
-The initial study covers work related to recommender systems, career recommendation, skill matching, and graph-based recommendation approaches. The literature review is intended to identify suitable approaches for matching users with relevant job opportunities and to understand how structured data and recommendation techniques can support career guidance.
+### Primary
+- Students
+- Job Seekers
+- Graduates
+- Career Guidance Users
 
-Research-paper references will be added to the **Research paper** directory as the project literature review is finalized.
-
----
-
-## Current Progress
-
-### Completed
-
-- Problem understanding
-- Requirement identification
-- DSA Unit 1: Trees
-- DSA Unit 2: Graphs
-- DSA-to-project mapping
-- Initial job recommendation workflow
-- Initial graph model
-- Preliminary conceptual planning
-
-### Yet to Implement
-
-- Job dataset / database
-- Binary Search Tree / AVL Tree implementation
-- Graph implementation
-- Skill-job relationship model
-- Job matching / scoring algorithm
-- Max Heap / Priority Queue recommendation
-- User interface
-- Backend integration
-- Testing
-- Performance analysis
+### Secondary
+- Recruiters
+- Placement Teams
+- Career Counsellors
+- Employers
 
 ---
 
-## Future Scope
+## 5. Research and Literature Review
 
-- Personalized job recommendations
-- Skill-gap identification
-- Career-path guidance
-- Dynamic job ranking
-- Advanced skill/job graph
-- Resume-based job matching
-- Explainable recommendations
-- Continuous job-data updates
-- Performance and recommendation analysis
+The initial research focuses on the requirements of users searching for jobs and career opportunities. The study covers efficient job searching, identifying jobs related to user skills, and prioritizing suitable opportunities.
+
+The review examines how DSA can support:
+
+- Efficient searching and organization of job records
+- Relationships between users, skills, and jobs
+- Prioritization using suitability or matching score
+- BST and AVL Tree
+- Graph and Adjacency List
+- Max Heap
+
+---
+
+## 6. DSA Work and Complexity Studied
+
+| Data Structure | Best Case | Worst Case | Purpose in Project |
+|---|---:|---:|---|
+| BST | O(log n) | O(log n) | Searching and organizing ordered jobs |
+| AVL Tree | O(log n) | O(log n) | Maintaining balanced job data |
+| Max Heap | O(1) | O(log n) | Prioritizing suitable jobs |
+| Min Heap | O(1) | O(log n) | Can support priority-based processing |
+
+The report also identifies **sorting, hashing, searching, priority queues/heaps, and graph-based processing** as parts of the subsequent implementation plan.
+
+---
+
+## 7. Evidence / Supporting Material
+
+The project progress includes:
+
+- Initial job-data structure and sample records
+- Flowchart for job matching and recommendation
+- Sample sorted job dataset based on matching score
+- Job searching algorithm test cases
+- Priority Queue / Heap implementation concept for job recommendations
+- Graph representation showing relationships between users, skills, and jobs
+- Initial system architecture and recommendation module design
+
+---
+
+## 8. Current Challenges
+
+- Selecting appropriate data structures for different job recommendation operations
+- Handling multiple jobs with similar matching scores
+- Choosing between different sorting algorithms based on job dataset size
+- Representing relationships between skills, users, and jobs using graphs
+- Maintaining efficient data updates when job details, user skills, or matching scores change
+- Balancing simplicity with efficient recommendation and algorithm implementation
+
+---
+
+## 9. Overall Progress
+
+**33% — Month 1 of 3**
+
+The current work establishes the problem context, requirements, research review, DSA mapping, initial data organization, searching/priority concepts, graph representation, and supporting design material.
+
+---
+
+## 10. Plan for Next Review
+
+- Implement job-record and user-profile management using appropriate data structures.
+- Implement searching and sorting algorithms for job matching and career analysis.
+- Develop a priority queue/heap-based recommendation module.
+- Implement hashing for fast job and skill retrieval.
+- Create a graph-based skill-job relationship module.
+- Test algorithms on a larger sample job dataset.
+- Compare algorithm performance using time and space complexity.
+- Develop an initial prototype.
+- Prepare a dashboard for the final demonstration.
 
 ---
 
 ## Project Goal
 
-The main goal is to demonstrate how DSA concepts can be applied to a real-world career recommendation problem and develop an efficient approach for organizing, searching, matching, ranking, and recommending job opportunities.
-
----
-
-## Target Users
-
-### Students and Graduates
-Can explore suitable job opportunities according to their skills, qualifications, and interests.
-
-### Job Seekers
-Can search and prioritize relevant opportunities.
-
-### Career Guidance Users
-Can use the system as a structured support tool for exploring career and job options.
-
-### Recruiters / Placement Teams
-Can use structured job and skill information for organizing opportunities and matching requirements.
-
----
-
-## Challenges
-
-- Understanding how Trees and Graphs can represent career and job data.
-- Selecting DSA concepts that are relevant to the recommendation problem.
-- Representing relationships between users, skills, and jobs.
-- Designing an efficient matching and ranking approach.
-- Handling increasing amounts of job and skill data.
-- Balancing recommendation relevance with computational efficiency.
-
----
-
-## Project Status
-
-**Status:** Month 1 – Problem Understanding, Research & Initial Design
-
-**Overall Progress:** 25%
-
+The goal is to establish an efficient DSA-based foundation for organizing, searching, relating, and prioritizing job and skill information to support job recommendation and career guidance.
