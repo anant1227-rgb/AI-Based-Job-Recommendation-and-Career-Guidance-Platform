@@ -1,20 +1,31 @@
-# Research Papers
+# Research Paper
 
-This folder is reserved for the research papers used for the literature review of the **AI-Based Job Recommendation and Career Guidance Platform**.
+## Literature Review – AI-Based Job Recommendation and Career Guidance Platform
 
-## Research Focus
+This folder is reserved for the research papers and references used for the project's literature review.
 
-The literature review will focus on:
+### Research Focus
 
-- Job and career recommendation systems
-- Recommender-system approaches
-- Skill matching and job matching
-- Graph-based recommendation
-- AI-assisted career guidance
-- Data organization and efficient recommendation
+The project research focuses on the requirements of users searching for jobs and career opportunities, including:
 
-Research-paper PDF files and verified references can be added to this folder as the literature review is finalized.
+- Efficient job searching
+- Identifying jobs related to user skills
+- Prioritizing suitable job opportunities
+- Organizing job records efficiently
+- Representing relationships between users, skills, and jobs
 
-## Purpose
+### DSA Areas Reviewed
 
-The papers stored here will support the problem context, methodology selection, and discussion of recommendation approaches used in the project.
+The literature/research review considers how the following DSA concepts can support job recommendation and career guidance:
+
+- Binary Search Tree (BST)
+- AVL Tree
+- Graph
+- Adjacency List
+- Max Heap
+
+### Purpose
+
+The research review is used to understand how DSA can support efficient searching, organization, relationship representation, and prioritization in the proposed job recommendation and career guidance system.
+
+> Research-paper files and verified references can be added here when the final literature sources are selected. No specific paper or citation is claimed in this README unless it is actually added to the repository.
