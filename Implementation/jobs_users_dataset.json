@@ -1,0 +1,15 @@
+{
+  "jobs": [
+    {"job_id":"J001","job_title":"AI Engineer","company":"TechNova","category":"AI","experience":1,"skills":["Python","ML","DSA","SQL"]},
+    {"job_id":"J002","job_title":"Data Analyst","company":"DataWorks","category":"Analytics","experience":0,"skills":["Python","SQL","Statistics","Excel"]},
+    {"job_id":"J003","job_title":"Python Developer","company":"CodeCraft","category":"Software Development","experience":0,"skills":["Python","DSA","SQL","Git"]},
+    {"job_id":"J004","job_title":"ML Engineer","company":"VisionAI","category":"Machine Learning","experience":1,"skills":["Python","ML","Deep Learning","Statistics"]},
+    {"job_id":"J005","job_title":"Backend Developer","company":"CloudStack","category":"Software Development","experience":1,"skills":["Python","SQL","APIs","DSA"]},
+    {"job_id":"J006","job_title":"Business Analyst","company":"InsightCorp","category":"Analytics","experience":1,"skills":["SQL","Excel","Statistics","Communication"]},
+    {"job_id":"J007","job_title":"AI Research Intern","company":"FutureLabs","category":"AI","experience":0,"skills":["Python","ML","Statistics"]},
+    {"job_id":"J008","job_title":"Data Science Intern","company":"DataSphere","category":"Data Science","experience":0,"skills":["Python","Statistics","ML","SQL"]}
+  ],
+  "users": [
+    {"user_id":"U001","name":"Student_01","education":"B.Tech CSE","experience":0,"skills":["Python","DSA","SQL"],"interests":["AI","Data Science"]}
+  ]
+}
