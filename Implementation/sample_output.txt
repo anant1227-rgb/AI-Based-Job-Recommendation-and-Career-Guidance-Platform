@@ -1,0 +1,35 @@
+=== AI JOB RECOMMENDATION DSA PROTOTYPE ===
+User: Student_01 | Skills: Python, DSA, SQL
+
+BST Search: Python Developer
+BST Inorder: ['J001', 'J002', 'J003', 'J004', 'J005', 'J006', 'J007', 'J008']
+AVL Search: Backend Developer
+
+BFS: USER:U001 -> SKILL:Python -> SKILL:DSA -> SKILL:SQL -> JOB:J001 -> JOB:J002 -> JOB:J003 -> JOB:J004
+DFS: USER:U001 -> SKILL:Python -> JOB:J001 -> SKILL:ML -> JOB:J004 -> SKILL:Deep Learning -> SKILL:Statistics -> JOB:J002
+
+Hash Lookup: Data Science Intern
+
+Merge Sort Ranking:
+J001 | AI Engineer | 75.0%
+J003 | Python Developer | 75.0%
+J005 | Backend Developer | 75.0%
+J002 | Data Analyst | 50.0%
+J008 | Data Science Intern | 50.0%
+
+Max Heap Top-5:
+J001 | AI Engineer | 75.0%
+J005 | Backend Developer | 75.0%
+J003 | Python Developer | 75.0%
+J008 | Data Science Intern | 50.0%
+J002 | Data Analyst | 50.0%
+
+Automated tests: 10/10 passed
+
+Complexity Summary:
+BST search: average O(log n), worst O(n)
+AVL search/insert: O(log n)
+BFS/DFS: O(V + E)
+Hash lookup: average O(1)
+Merge Sort: O(n log n)
+Heap push/pop: O(log n); Top-K: O(k log n)
